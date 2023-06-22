@@ -1,0 +1,303 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89375e5c5c7daa44fa377993507a63c9, type: 3}
+  m_Name: so_ItemList
+  m_EditorClassIdentifier: 
+  _itemDetailsList:
+  - _itemIDCode: 10000
+    _itemType: 2
+    _itemDescription: ' Canyon Oak Actorn'
+    _itmeLongDescription: "\u6A61\u6811\u79CD\u5B50"
+    _itemSprite: {fileID: 21300000, guid: 730e572c78cf0244ca0db36bb8f3af7f, type: 3}
+    _itemUseGridRadius: 2
+    _itemUseRadius: 2
+    _isStartingItem: 0
+    _isCanBePickedUp: 1
+    _isCanBeDropped: 1
+    _isCanBeEaten: 0
+    _isCanBeCarried: 1
+  - _itemIDCode: 10001
+    _itemType: 3
+    _itemDescription: Pumpkin
+    _itmeLongDescription: "\u5357\u74DC"
+    _itemSprite: {fileID: 21300000, guid: f0d720006ae6c9e468cc99a9f1713ba1, type: 3}
+    _itemUseGridRadius: 2
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 1
+    _isCanBeDropped: 1
+    _isCanBeEaten: 1
+    _isCanBeCarried: 1
+  - _itemIDCode: 10002
+    _itemType: 3
+    _itemDescription: Sweetcom
+    _itmeLongDescription: "\u751C\u7389\u7C73"
+    _itemSprite: {fileID: 21300000, guid: 081b5033ea188cb48b5d44b99ab920bc, type: 3}
+    _itemUseGridRadius: 2
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 1
+    _isCanBeDropped: 1
+    _isCanBeEaten: 1
+    _isCanBeCarried: 1
+  - _itemIDCode: 10003
+    _itemType: 4
+    _itemDescription: A Basic Watering Can
+    _itmeLongDescription: "\u6C34\u58F6"
+    _itemSprite: {fileID: 21300136, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    _itemUseGridRadius: 1
+    _itemUseRadius: 0
+    _isStartingItem: 1
+    _isCanBePickedUp: 1
+    _isCanBeDropped: 0
+    _isCanBeEaten: 0
+    _isCanBeCarried: 0
+  - _itemIDCode: 10004
+    _itemType: 5
+    _itemDescription: A Basic Hoe
+    _itmeLongDescription: 
+    _itemSprite: {fileID: 0}
+    _itemUseGridRadius: 1
+    _itemUseRadius: 0
+    _isStartingItem: 1
+    _isCanBePickedUp: 1
+    _isCanBeDropped: 0
+    _isCanBeEaten: 0
+    _isCanBeCarried: 0
+  - _itemIDCode: 10005
+    _itemType: 6
+    _itemDescription: A Basic Axe
+    _itmeLongDescription: "\u65A7\u5B50"
+    _itemSprite: {fileID: 21300010, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    _itemUseGridRadius: 1
+    _itemUseRadius: 0
+    _isStartingItem: 1
+    _isCanBePickedUp: 1
+    _isCanBeDropped: 0
+    _isCanBeEaten: 0
+    _isCanBeCarried: 0
+  - _itemIDCode: 10006
+    _itemType: 2
+    _itemDescription: Parsnip Seed
+    _itmeLongDescription: "\u9632\u98CE\u8349\u79CD\u5B50"
+    _itemSprite: {fileID: 21300000, guid: 7da78110e28e0f74aaa3ef4a41f4c0ed, type: 3}
+    _itemUseGridRadius: 2
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 1
+    _isCanBeDropped: 1
+    _isCanBeEaten: 0
+    _isCanBeCarried: 1
+  - _itemIDCode: 10007
+    _itemType: 3
+    _itemDescription: Parsnip
+    _itmeLongDescription: "\u9632\u98CE\u8349"
+    _itemSprite: {fileID: 21300000, guid: 0a1268bf801d5304ebf16458d7309ac1, type: 3}
+    _itemUseGridRadius: 2
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 1
+    _isCanBeDropped: 1
+    _isCanBeEaten: 1
+    _isCanBeCarried: 1
+  - _itemIDCode: 10008
+    _itemType: 3
+    _itemDescription: Wood
+    _itmeLongDescription: "\u6728\u5934"
+    _itemSprite: {fileID: 21300000, guid: e26dc0d638731ec47abe9c4b3cae62ac, type: 3}
+    _itemUseGridRadius: 2
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 1
+    _isCanBeDropped: 1
+    _isCanBeEaten: 0
+    _isCanBeCarried: 1
+  - _itemIDCode: 10009
+    _itemType: 2
+    _itemDescription: "\u677E\u5B50"
+    _itmeLongDescription: "\u677E\u5B50"
+    _itemSprite: {fileID: 21300000, guid: 5eb84bf51d351da428f95a1296f6a397, type: 3}
+    _itemUseGridRadius: 0
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 1
+    _isCanBeDropped: 1
+    _isCanBeEaten: 0
+    _isCanBeCarried: 1
+  - _itemIDCode: 10010
+    _itemType: 2
+    _itemDescription: "\u6811\u6869"
+    _itmeLongDescription: "\u6811\u6869"
+    _itemSprite: {fileID: 7154603021615155856, guid: d241c496741a12d4290e12ba81dd6724, type: 3}
+    _itemUseGridRadius: 0
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 0
+    _isCanBeDropped: 0
+    _isCanBeEaten: 0
+    _isCanBeCarried: 0
+  - _itemIDCode: 10011
+    _itemType: 2
+    _itemDescription: "\u4E91\u6749\u6811\u6869"
+    _itmeLongDescription: "\u4E91\u6749\u6811\u6869"
+    _itemSprite: {fileID: -341119608263849502, guid: 5d22327a2a3d2a049a8a59a708d527fe, type: 3}
+    _itemUseGridRadius: 0
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 0
+    _isCanBeDropped: 0
+    _isCanBeEaten: 0
+    _isCanBeCarried: 0
+  - _itemIDCode: 10012
+    _itemType: 9
+    _itemDescription: Wicker Basket
+    _itmeLongDescription: 
+    _itemSprite: {fileID: 21300504, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    _itemUseGridRadius: 1
+    _itemUseRadius: 0
+    _isStartingItem: 1
+    _isCanBePickedUp: 1
+    _isCanBeDropped: 0
+    _isCanBeEaten: 0
+    _isCanBeCarried: 0
+  - _itemIDCode: 10013
+    _itemType: 7
+    _itemDescription: "\u9E64\u5634\u9504"
+    _itmeLongDescription: 
+    _itemSprite: {fileID: 21300094, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    _itemUseGridRadius: 1
+    _itemUseRadius: 0
+    _isStartingItem: 1
+    _isCanBePickedUp: 1
+    _isCanBeDropped: 0
+    _isCanBeEaten: 0
+    _isCanBeCarried: 0
+  - _itemIDCode: 10014
+    _itemType: 2
+    _itemDescription: Stone 1 Seed
+    _itmeLongDescription: 
+    _itemSprite: {fileID: 21300000, guid: 4fb548784c08c2c40b86a99493efa98d, type: 3}
+    _itemUseGridRadius: 0
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 0
+    _isCanBeDropped: 0
+    _isCanBeEaten: 0
+    _isCanBeCarried: 0
+  - _itemIDCode: 10015
+    _itemType: 3
+    _itemDescription: Stone
+    _itmeLongDescription: 
+    _itemSprite: {fileID: 21300000, guid: 7700e9e59e6f58e4598ea8f2e5a84cc1, type: 3}
+    _itemUseGridRadius: 1
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 1
+    _isCanBeDropped: 1
+    _isCanBeEaten: 0
+    _isCanBeCarried: 1
+  - _itemIDCode: 10016
+    _itemType: 2
+    _itemDescription: Stone2 Seed
+    _itmeLongDescription: 
+    _itemSprite: {fileID: 21300000, guid: ffd3a07e9702a614284d1e5a4be9f532, type: 3}
+    _itemUseGridRadius: 0
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 0
+    _isCanBeDropped: 0
+    _isCanBeEaten: 0
+    _isCanBeCarried: 0
+  - _itemIDCode: 10017
+    _itemType: 10
+    _itemDescription: "\u9570\u5200"
+    _itmeLongDescription: 
+    _itemSprite: {fileID: 21300506, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    _itemUseGridRadius: 2
+    _itemUseRadius: 1.5
+    _isStartingItem: 1
+    _isCanBePickedUp: 1
+    _isCanBeDropped: 1
+    _isCanBeEaten: 0
+    _isCanBeCarried: 1
+  - _itemIDCode: 10018
+    _itemType: 10
+    _itemDescription: "\u8349"
+    _itmeLongDescription: 
+    _itemSprite: {fileID: 21300000, guid: 207ad99171e171b418bcaaa396d5a6f6, type: 3}
+    _itemUseGridRadius: 0
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 0
+    _isCanBeDropped: 0
+    _isCanBeEaten: 0
+    _isCanBeCarried: 0
+  - _itemIDCode: 10019
+    _itemType: 10
+    _itemDescription: "\u83492"
+    _itmeLongDescription: 
+    _itemSprite: {fileID: 21300000, guid: e452dd2aa629f624390a9ba516a7c47e, type: 3}
+    _itemUseGridRadius: 0
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 0
+    _isCanBeDropped: 0
+    _isCanBeEaten: 0
+    _isCanBeCarried: 0
+  - _itemIDCode: 10020
+    _itemType: 0
+    _itemDescription: "\u6742\u8349"
+    _itmeLongDescription: 
+    _itemSprite: {fileID: 21300000, guid: 25925800440b0e84f9533a314ddca6b5, type: 3}
+    _itemUseGridRadius: 0
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 1
+    _isCanBeDropped: 1
+    _isCanBeEaten: 0
+    _isCanBeCarried: 1
+  - _itemIDCode: 10021
+    _itemType: 10
+    _itemDescription: "\u4ED9\u4EBA\u638C"
+    _itmeLongDescription: 
+    _itemSprite: {fileID: 21300000, guid: 37e09848a493a0a4b89a743f73f75963, type: 3}
+    _itemUseGridRadius: 0
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 0
+    _isCanBeDropped: 0
+    _isCanBeEaten: 0
+    _isCanBeCarried: 0
+  - _itemIDCode: 10022
+    _itemType: 11
+    _itemDescription: "\u6905\u5B50"
+    _itmeLongDescription: 
+    _itemSprite: {fileID: 21300000, guid: 2a61f48c8f2dfed4da6f2f8e2485ee15, type: 3}
+    _itemUseGridRadius: 0
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 0
+    _isCanBeDropped: 0
+    _isCanBeEaten: 0
+    _isCanBeCarried: 0
+  - _itemIDCode: 10023
+    _itemType: 11
+    _itemDescription: "\u684C\u5B50"
+    _itmeLongDescription: 
+    _itemSprite: {fileID: 21300000, guid: 60f7a57556be87841a8cabc94054df28, type: 3}
+    _itemUseGridRadius: 0
+    _itemUseRadius: 0
+    _isStartingItem: 0
+    _isCanBePickedUp: 0
+    _isCanBeDropped: 0
+    _isCanBeEaten: 0
+    _isCanBeCarried: 0
